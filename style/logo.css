@@ -1,0 +1,71 @@
+/* font part */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.inter-text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.raleway-text {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared style 
+  common things- 1.button design 2. color list
+*/
+.text-color {
+    color: rgba(78, 71, 255, 1);
+}
+.text-color-2{
+    color: #252432;
+}
+.btn-primary {
+    background-color: rgba(78, 71, 255, 1);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 36px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* header design
+  - navigation part : 1.name 2. button
+  - banner : 1. banner title 2. banner button 3. banner background image
+*/
+.header {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image:url('../Assets/Hero-bg.png') ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50ox 0 50px 0;
+    margin: 0 150px;
+}
+nav h3 {
+    font-size: 34px;
+    font-weight: 900;
+}
+.banner {
+    text-align: center;
+    padding: 0 260px 100px 260px;
+    
+}
+.banner-title{
+    font-size: 65px;
+    color: #252432;
+}
+
+
